@@ -21,6 +21,7 @@ public class Main2Activity extends AppCompatActivity implements AHBottomNavigati
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_main2);
 
         bottomNavigation = (AHBottomNavigation) findViewById(R.id.myBottomNavigation_ID);
