@@ -18,7 +18,6 @@ public class ProfileFragment extends Fragment{
         View v= inflater.inflate(R.layout.tab_profile, container,false);
         return v;
 
-
     }
 
 

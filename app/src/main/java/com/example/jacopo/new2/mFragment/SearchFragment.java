@@ -12,14 +12,6 @@ import com.example.jacopo.new2.R;
 
 public class SearchFragment extends Fragment{
 
-//    @Nullable
-//    @Override
-//    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-//        View rootView= inflater.inflate(R.layout.tab_search, container,false);
-//        return rootView;
-//    }
-//}
-
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {

@@ -20,4 +20,18 @@
     <string name="change_email">Cambia email</string>
     <string name="btn_sign_out">Esci</string>
     <string name="btn_send">Manda</string>
+    <string name="add">Aggiungi</string>
+    <string name="home">Home</string>
+    <string name="profile">Profilo</string>
+    <string name="search">Cerca</string>
+    <string name="viral">Virali</string>
+    <string name="btn_remove">Rimuovi utente</string>
+    <string name="btn_change">Cambia</string>
+    <string name="e_email">Inserisci indirizzo email</string>
+    <string name="email">Email</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="title_activity_login">Accedi</string>
+    <string name="title_activity_profile">Profilo</string>
+    <string name="title_activity_reset_password"></string>
 </resources>

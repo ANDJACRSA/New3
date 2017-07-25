@@ -30,11 +30,11 @@ public class Main2Activity extends AppCompatActivity implements AHBottomNavigati
 
     private void createNavItems() {
         //CREATE ITEMS
-        AHBottomNavigationItem homeItem = new AHBottomNavigationItem("Home", R.drawable.ic_home);
-        AHBottomNavigationItem viralItem = new AHBottomNavigationItem("Viral", R.drawable.ic_viral);
-        AHBottomNavigationItem videoItem = new AHBottomNavigationItem("Add", R.drawable.ic_add);
-        AHBottomNavigationItem searchItem = new AHBottomNavigationItem("Search", R.drawable.ic_search);
-        AHBottomNavigationItem profileItem = new AHBottomNavigationItem("Profile", R.drawable.ic_profile);
+        AHBottomNavigationItem homeItem = new AHBottomNavigationItem(getString(R.string.home), R.drawable.ic_home);
+        AHBottomNavigationItem viralItem = new AHBottomNavigationItem(getString(R.string.viral), R.drawable.ic_viral);
+        AHBottomNavigationItem videoItem = new AHBottomNavigationItem(getString(R.string.add), R.drawable.ic_add);
+        AHBottomNavigationItem searchItem = new AHBottomNavigationItem(getString(R.string.search), R.drawable.ic_search);
+        AHBottomNavigationItem profileItem = new AHBottomNavigationItem(getString(R.string.profile), R.drawable.ic_profile);
         //ADD THEM to bar
         bottomNavigation.addItem(homeItem);
         bottomNavigation.addItem(viralItem);
