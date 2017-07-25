@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "317451589905",
+    "firebase_url": "https://nowplay-76a1d.firebaseio.com",
+    "project_id": "nowplay-76a1d",
+    "storage_bucket": "nowplay-76a1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317451589905:android:37eca2a5c41027cc",
+        "android_client_info": {
+          "package_name": "com.example.jacopo.new2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317451589905-b6pdpv1t9q537b17k0bgheqc6h1sqlpg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFKYA244As3s-lKPwCmldREbOZleneW3U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
