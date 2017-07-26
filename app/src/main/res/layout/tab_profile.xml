@@ -15,7 +15,8 @@
         android:textAlignment="center"
         android:textColor="@color/white"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:clickable="true"/>
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
