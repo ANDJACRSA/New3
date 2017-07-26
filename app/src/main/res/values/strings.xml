@@ -28,7 +28,7 @@
     <string name="btn_sign_out">Sign Out</string>
     <string name="lbl_forgot_password">Forgot password?</string>
     <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
-    <string name="prova">ciaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociao</string>
+    <string name="prova">ciaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociaociao</string>
     <string name="home">Home</string>
     <string name="viral">Viral</string>
     <string name="add">Add</string>
@@ -36,6 +36,7 @@
     <string name="profile">Profile</string>
     <string name="e_pass">Enter Password!</string>
     <string name="e_email">Enter email address!</string>
+    <string name="settings">Settings</string>
 
 
 </resources>
