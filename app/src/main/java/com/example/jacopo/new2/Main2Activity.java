@@ -9,7 +9,7 @@ import com.aurelhubert.ahbottomnavigation.AHBottomNavigation;
 import com.aurelhubert.ahbottomnavigation.AHBottomNavigationItem;
 import com.example.jacopo.new2.mFragment.HomeFragment;
 import com.example.jacopo.new2.mFragment.ProfileFragment;
-import com.example.jacopo.new2.mFragment.SearchFragment;
+import com.example.jacopo.new2.mFragment.ChatFragment;
 import com.example.jacopo.new2.mFragment.VideoFragment;
 import com.example.jacopo.new2.mFragment.ViralFragment;
 
@@ -34,7 +34,7 @@ public class Main2Activity extends AppCompatActivity implements AHBottomNavigati
         AHBottomNavigationItem homeItem = new AHBottomNavigationItem(getString(R.string.home), R.drawable.ic_home);
         AHBottomNavigationItem viralItem = new AHBottomNavigationItem(getString(R.string.viral), R.drawable.ic_viral);
         AHBottomNavigationItem videoItem = new AHBottomNavigationItem(getString(R.string.add), R.drawable.ic_add);
-        AHBottomNavigationItem searchItem = new AHBottomNavigationItem(getString(R.string.search), R.drawable.ic_search);
+        AHBottomNavigationItem searchItem = new AHBottomNavigationItem(getString(R.string.chat), R.drawable.ic_chat);
         AHBottomNavigationItem profileItem = new AHBottomNavigationItem(getString(R.string.profile), R.drawable.ic_profile);
         //ADD THEM to bar
         bottomNavigation.addItem(homeItem);
@@ -64,8 +64,8 @@ public class Main2Activity extends AppCompatActivity implements AHBottomNavigati
             VideoFragment videoFragment = new VideoFragment();
             getSupportFragmentManager().beginTransaction().replace(R.id.content_id, videoFragment).commit();
         } else if (position == 3) {
-            SearchFragment searchFragment = new SearchFragment();
-            getSupportFragmentManager().beginTransaction().replace(R.id.content_id, searchFragment).commit();
+            ChatFragment chatFragment = new ChatFragment();
+            getSupportFragmentManager().beginTransaction().replace(R.id.content_id, chatFragment).commit();
         } else if (position == 4) {
             ProfileFragment profileFragment = new ProfileFragment();
             getSupportFragmentManager().beginTransaction().replace(R.id.content_id, profileFragment).commit();

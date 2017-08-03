@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,15 +19,17 @@ import com.example.jacopo.new2.R;
 public class ProfileFragment extends Fragment {
 
     public Button button;
+    private Toolbar myToolbar;
 
 //    private static final int MENU_SETT = Menu.FIRST;
 
-    private Toolbar toolbar;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.tab_profile, container, false);
+
+        ((AppCompatActivity)getActivity()).getSupportActionBar();
         Toolbar toolbar = (Toolbar) v.findViewById(R.id.toolbar2);
         toolbar.setTitle(getString(R.string.profile));
         toolbar.setTitleTextColor(getResources().getColor(R.color.white));
@@ -48,6 +51,13 @@ public class ProfileFragment extends Fragment {
         return v;
 
     }
+
+/*    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_main, menu);
+        return true;
+    }*/
 
 
 
